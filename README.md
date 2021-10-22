@@ -4,6 +4,8 @@ This is a Python script that leverages the power of Imagemagick to make certain 
 
 🐝 All images used in this tool belong to [TNGineers](https://twitter.com/TNgineers) and are used and distributed with their permission.
 
+![Permission by ellraiser](permission.png)
+
 ## Features
 
 * Generates text images using the font used in the menu object titles
@@ -48,7 +50,7 @@ This is a Python script that leverages the power of Imagemagick to make certain 
 
 ### Generate a text image
 
-![rosetta.png](rosetta.png)
+![Rosetta](rosetta.png)
 
 ```bash
 ./run.py text -string "I love apico" -color "#f0f"
