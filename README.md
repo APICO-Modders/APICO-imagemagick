@@ -48,6 +48,8 @@ This is a Python script that leverages the power of Imagemagick to make certain 
 
 ### Generate a text image
 
+![rosetta.png](rosetta.png)
+
 ```bash
 ./run.py text -string "I love apico" -color "#f0f"
 ```
