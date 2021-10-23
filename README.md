@@ -53,7 +53,7 @@ This is a Python script that leverages the power of Imagemagick to make certain 
 ### Generate a text image
 
 ```bash
-./run.py text -string "I love apico" -color "#f0f" -output "text.png"
+./run.py text -string "I love apico" -color "#d89d41" -output "text.png"
 ```
 
 ![Text example](doc/text.png)
