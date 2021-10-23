@@ -2,7 +2,7 @@
 from wand.image import Image
 import argparse
 
-def generate_text(text, outputName, text_color='#fff'):
+def generate_text(text, output_name, text_color='#fff'):
     '''Creates an image using a spritefont from a string.'''
     text = text.replace(' ', '_').lower()
 
@@ -16,7 +16,7 @@ def generate_text(text, outputName, text_color='#fff'):
 
     # Apply the specified color to the whole text sprite, with no transparency
     textImage.colorize(color=text_color, alpha='#fff')
-    textImage.save(filename=outputName)
+    textImage.save(filename=output_name)
 
 def main():
     parser = argparse.ArgumentParser(description='Fill this desc later.')
