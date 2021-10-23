@@ -81,7 +81,7 @@ def main():
     args = parser.parse_args()
 
     if args.type == 'text':
-        generate_text(args.string, args.color, args.output)
+        generate_text(args.string, args.output, args.color)
     if args.type == 'spritesheet':
         generate_spritesheet(args.sprite, args.darkoutline, args.output)
 
