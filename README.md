@@ -9,6 +9,8 @@ This is a Python script that leverages the power of Imagemagick to make certain 
 ## Features
 
 * Generates text images using the font used in the menu object titles
+* Generates spritesheets with mouseover and undiscovered versions of items out of a single item sprite
+  * Can optionally add the dark outline to the source sprite
 
 ## Installation
 
