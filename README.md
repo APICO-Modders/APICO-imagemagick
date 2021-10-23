@@ -52,8 +52,26 @@ This is a Python script that leverages the power of Imagemagick to make certain 
 
 ### Generate a text image
 
-![Rosetta](rosetta.png)
-
 ```bash
-./run.py text -string "I love apico" -color "#f0f" -output "apico.png"
+./run.py text -string "I love apico" -color "#f0f" -output "text.png"
 ```
+
+![Text example](doc/text.png)
+
+### Generate a spritesheet
+
+From a sprite that already has a dark outline
+
+```
+./run.py spritesheet -sprite jalapeno.png -output jalapeno_sheet.png
+```
+
+![Spritesheet example](doc/spritesheet.png)
+
+From a sprite that doesn't have a dark outline
+
+```
+./run.py spritesheet -sprite book.png -output book_sheet.png -darkoutline 1
+```
+
+![Spritesheet example with adding a dark border](doc/spritesheet_border.png)
