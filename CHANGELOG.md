@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2021-10-23
+
+### Changed
+* README now has better examples with pictures of the results
+
+### Fixed
+* Fixed a bug that prevented the text generation from working
+
 ## [0.2.0] - 2021-10-23
 
 ### Added
